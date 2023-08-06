@@ -1,0 +1,35 @@
+﻿<Page x:Class="shop.Views.AuthView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:shop.Views" xmlns:viewmodels="clr-namespace:shop.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:AuthViewModel}"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="320"
+      Title="AuthView">
+
+    <Grid Background="White">
+        
+        <StackPanel Margin="15, 15" Orientation="Vertical" HorizontalAlignment="Center" Width="320">
+            <Image Source="logo.svg" Width="180" Height="155" Margin="10"/>
+            <StackPanel  Orientation="Horizontal" Margin="15">
+                <TextBlock FontSize="15" Text="login" HorizontalAlignment="Center" Margin="0 0 79 0"/>
+                <TextBox x:Name="login" Text="{Binding Login, UpdateSourceTrigger=PropertyChanged}" Width="175"/>
+            </StackPanel>
+            <StackPanel  Orientation="Horizontal" Margin="15 0">
+                <TextBlock FontSize="15" Text="password" Margin="0 0 50 0"/>
+                <TextBox x:Name="password"  Text="{Binding Password, UpdateSourceTrigger=PropertyChanged}" Width="175"/>
+            </StackPanel>
+            <Label Content="Забыли пароль?" HorizontalAlignment="Right" Margin="0 0 15 0"/>
+
+            <Button Content="войти" Command="{Binding LoginCommand}" Margin="10"/>
+            <!--<Button Content="войти через команду" Command="{Binding LoginCommand}" Margin="10"/>-->
+            <Label Content="Нет аккаунта?" HorizontalAlignment="Center"/>
+            <Label Content="Зарегистрируйтесь!" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <Button Content="открыть регистрацию" Command="{Binding OpenRegCommand}" Margin="10"/>
+
+
+
+        </StackPanel>
+    </Grid>
+</Page>

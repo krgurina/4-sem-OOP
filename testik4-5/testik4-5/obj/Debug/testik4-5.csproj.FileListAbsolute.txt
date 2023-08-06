@@ -1,0 +1,99 @@
+N:\Sharp\testik4-5\testik4-5\obj\Debug\testik4-5.csproj.AssemblyReference.cache
+N:\Sharp\testik4-5\testik4-5\obj\Debug\testik4-5.csproj.SuggestedBindingRedirects.cache
+N:\Sharp\testik4-5\testik4-5\obj\Debug\MainWindow.g.cs
+N:\Sharp\testik4-5\testik4-5\obj\Debug\App.g.cs
+N:\Sharp\testik4-5\testik4-5\obj\Debug\testik4-5_MarkupCompile.cache
+N:\Sharp\testik4-5\testik4-5\obj\Debug\testik4-5_MarkupCompile.lref
+N:\Sharp\testik4-5\testik4-5\obj\Debug\UserControl1.baml
+N:\Sharp\testik4-5\testik4-5\obj\Debug\ChangeWindow.g.cs
+N:\Sharp\testik4-5\testik4-5\obj\Debug\UserControl1.g.cs
+N:\Sharp\testik4-5\testik4-5\obj\Debug\GeneratedInternalTypeHelper.g.cs
+N:\Sharp\testik4-5\testik4-5\obj\Debug\Resources\DarkTheme.baml
+N:\Sharp\testik4-5\testik4-5\obj\Debug\Resources\Lang.en-US.baml
+N:\Sharp\testik4-5\testik4-5\obj\Debug\Resources\Lang.ru-RU.baml
+N:\Sharp\testik4-5\testik4-5\obj\Debug\Resources\LightTheme.baml
+N:\Sharp\testik4-5\testik4-5\obj\Debug\Resources\Resource_Dictionary.baml
+N:\Sharp\testik4-5\testik4-5\obj\Debug\AddingWindow.g.cs
+N:\Sharp\testik4-5\testik4-5\obj\Debug\App.baml
+N:\Sharp\testik4-5\testik4-5\obj\Debug\AddingWindow.baml
+N:\Sharp\testik4-5\testik4-5\obj\Debug\ChangeWindow.baml
+N:\Sharp\testik4-5\testik4-5\obj\Debug\MainWindow.baml
+N:\Sharp\testik4-5\testik4-5\obj\Debug\testik4-5.exe
+N:\Sharp\testik4-5\testik4-5\obj\Debug\testik4-5.pdb
+N:\Sharp\testik4-5\testik4-5\bin\Debug\testik4-5.exe.config
+N:\Sharp\testik4-5\testik4-5\bin\Debug\testik4-5.exe
+N:\Sharp\testik4-5\testik4-5\bin\Debug\testik4-5.pdb
+N:\Sharp\testik4-5\testik4-5\bin\Debug\Newtonsoft.Json.dll
+N:\Sharp\testik4-5\testik4-5\bin\Debug\Newtonsoft.Json.xml
+N:\Sharp\testik4-5\testik4-5\obj\Debug\Themes\Generic.baml
+N:\Sharp\testik4-5\testik4-5\obj\Debug\testik4-5.g.resources
+N:\Sharp\testik4-5\testik4-5\obj\Debug\testik4_5.Properties.Resources.resources
+N:\Sharp\testik4-5\testik4-5\obj\Debug\testik4-5.csproj.GenerateResource.cache
+N:\Sharp\testik4-5\testik4-5\obj\Debug\testik4-5.csproj.CoreCompileInputs.cache
+N:\Sharp\testik4-5\testik4-5\obj\Debug\testik4-5.csproj.CopyComplete
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\bin\Debug\testik4-5.exe.config
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\bin\Debug\testik4-5.exe
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\bin\Debug\testik4-5.pdb
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\bin\Debug\Newtonsoft.Json.dll
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\bin\Debug\Newtonsoft.Json.xml
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\testik4-5.csproj.AssemblyReference.cache
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\Resources\DarkTheme.baml
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\Resources\Lang.en-US.baml
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\Resources\Lang.ru-RU.baml
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\Resources\LightTheme.baml
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\Resources\Resource_Dictionary.baml
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\UserControl1.baml
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\AddingWindow.g.cs
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\ChangeWindow.g.cs
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\MainWindow.g.cs
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\UserControl1.g.cs
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\App.g.cs
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\testik4-5_MarkupCompile.cache
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\testik4-5_MarkupCompile.lref
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\App.baml
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\AddingWindow.baml
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\ChangeWindow.baml
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\MainWindow.baml
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\Themes\Generic.baml
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\testik4-5.g.resources
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\testik4_5.Properties.Resources.resources
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\testik4-5.csproj.GenerateResource.cache
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\testik4-5.csproj.CoreCompileInputs.cache
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\testik4-5.csproj.CopyComplete
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\testik4-5.exe
+F:\лабы\ООП\4-5 лаба\testik4-5\testik4-5\obj\Debug\testik4-5.pdb
+F:\labs\testik4-5\testik4-5\bin\Debug\testik4-5.exe.config
+F:\labs\testik4-5\testik4-5\bin\Debug\testik4-5.exe
+F:\labs\testik4-5\testik4-5\bin\Debug\testik4-5.pdb
+F:\labs\testik4-5\testik4-5\bin\Debug\Newtonsoft.Json.dll
+F:\labs\testik4-5\testik4-5\bin\Debug\Newtonsoft.Json.xml
+F:\labs\testik4-5\testik4-5\obj\Debug\testik4-5.csproj.AssemblyReference.cache
+F:\labs\testik4-5\testik4-5\obj\Debug\Resources\DarkTheme.baml
+F:\labs\testik4-5\testik4-5\obj\Debug\Resources\Lang.en-US.baml
+F:\labs\testik4-5\testik4-5\obj\Debug\Resources\Lang.ru-RU.baml
+F:\labs\testik4-5\testik4-5\obj\Debug\Resources\LightTheme.baml
+F:\labs\testik4-5\testik4-5\obj\Debug\Resources\Resource_Dictionary.baml
+F:\labs\testik4-5\testik4-5\obj\Debug\UserControl1.baml
+F:\labs\testik4-5\testik4-5\obj\Debug\AddingWindow.g.cs
+F:\labs\testik4-5\testik4-5\obj\Debug\ChangeWindow.g.cs
+F:\labs\testik4-5\testik4-5\obj\Debug\MainWindow.g.cs
+F:\labs\testik4-5\testik4-5\obj\Debug\UserControl1.g.cs
+F:\labs\testik4-5\testik4-5\obj\Debug\UserControl2.g.cs
+F:\labs\testik4-5\testik4-5\obj\Debug\App.g.cs
+F:\labs\testik4-5\testik4-5\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\labs\testik4-5\testik4-5\obj\Debug\testik4-5_MarkupCompile.cache
+F:\labs\testik4-5\testik4-5\obj\Debug\testik4-5_MarkupCompile.lref
+F:\labs\testik4-5\testik4-5\obj\Debug\App.baml
+F:\labs\testik4-5\testik4-5\obj\Debug\AddingWindow.baml
+F:\labs\testik4-5\testik4-5\obj\Debug\ChangeWindow.baml
+F:\labs\testik4-5\testik4-5\obj\Debug\MainWindow.baml
+F:\labs\testik4-5\testik4-5\obj\Debug\Themes\Generic.baml
+F:\labs\testik4-5\testik4-5\obj\Debug\UserControl2.baml
+F:\labs\testik4-5\testik4-5\obj\Debug\testik4-5.g.resources
+F:\labs\testik4-5\testik4-5\obj\Debug\testik4_5.Properties.Resources.resources
+F:\labs\testik4-5\testik4-5\obj\Debug\testik4-5.csproj.GenerateResource.cache
+F:\labs\testik4-5\testik4-5\obj\Debug\testik4-5.csproj.CoreCompileInputs.cache
+F:\labs\testik4-5\testik4-5\obj\Debug\testik4-5.csproj.CopyComplete
+F:\labs\testik4-5\testik4-5\obj\Debug\testik4-5.exe
+F:\labs\testik4-5\testik4-5\obj\Debug\testik4-5.pdb

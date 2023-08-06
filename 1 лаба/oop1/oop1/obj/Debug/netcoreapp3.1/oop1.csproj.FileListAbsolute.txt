@@ -1,0 +1,16 @@
+F:\лабы\ООП\1 лаба\oop1\oop1\bin\Debug\netcoreapp3.1\oop1.exe
+F:\лабы\ООП\1 лаба\oop1\oop1\bin\Debug\netcoreapp3.1\oop1.deps.json
+F:\лабы\ООП\1 лаба\oop1\oop1\bin\Debug\netcoreapp3.1\oop1.runtimeconfig.json
+F:\лабы\ООП\1 лаба\oop1\oop1\bin\Debug\netcoreapp3.1\oop1.runtimeconfig.dev.json
+F:\лабы\ООП\1 лаба\oop1\oop1\bin\Debug\netcoreapp3.1\oop1.dll
+F:\лабы\ООП\1 лаба\oop1\oop1\bin\Debug\netcoreapp3.1\oop1.pdb
+F:\лабы\ООП\1 лаба\oop1\oop1\obj\Debug\netcoreapp3.1\oop1.csproj.AssemblyReference.cache
+F:\лабы\ООП\1 лаба\oop1\oop1\obj\Debug\netcoreapp3.1\oop1.csproj.GenerateResource.cache
+F:\лабы\ООП\1 лаба\oop1\oop1\obj\Debug\netcoreapp3.1\oop1.GeneratedMSBuildEditorConfig.editorconfig
+F:\лабы\ООП\1 лаба\oop1\oop1\obj\Debug\netcoreapp3.1\oop1.AssemblyInfoInputs.cache
+F:\лабы\ООП\1 лаба\oop1\oop1\obj\Debug\netcoreapp3.1\oop1.AssemblyInfo.cs
+F:\лабы\ООП\1 лаба\oop1\oop1\obj\Debug\netcoreapp3.1\oop1.csproj.CoreCompileInputs.cache
+F:\лабы\ООП\1 лаба\oop1\oop1\obj\Debug\netcoreapp3.1\oop1.dll
+F:\лабы\ООП\1 лаба\oop1\oop1\obj\Debug\netcoreapp3.1\oop1.pdb
+F:\лабы\ООП\1 лаба\oop1\oop1\obj\Debug\netcoreapp3.1\oop1.genruntimeconfig.cache
+F:\лабы\ООП\1 лаба\oop1\oop1\obj\Debug\netcoreapp3.1\oop1.Calculator.resources

@@ -1,0 +1,7 @@
+F:\лабы\ООП\oop2\oop2\bin\Debug\oop2.exe.config
+F:\лабы\ООП\oop2\oop2\bin\Debug\oop2.exe
+F:\лабы\ООП\oop2\oop2\bin\Debug\oop2.pdb
+F:\лабы\ООП\oop2\oop2\obj\Debug\oop2.csproj.AssemblyReference.cache
+F:\лабы\ООП\oop2\oop2\obj\Debug\oop2.csproj.CoreCompileInputs.cache
+F:\лабы\ООП\oop2\oop2\obj\Debug\oop2.exe
+F:\лабы\ООП\oop2\oop2\obj\Debug\oop2.pdb

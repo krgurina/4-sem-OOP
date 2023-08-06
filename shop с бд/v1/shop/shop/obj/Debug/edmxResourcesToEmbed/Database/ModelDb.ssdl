@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Course_workModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ORDERS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="USER_ID" Type="uniqueidentifier" />
+    <Property Name="PRODUCT_ID" Type="uniqueidentifier" />
+    <Property Name="COUNT" Type="int" />
+    <Property Name="DATE" Type="date" />
+    <Property Name="ORDER_STATE" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PRODUCTS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="TITLE" Type="nvarchar" MaxLength="128" />
+    <Property Name="CATEGORY" Type="nvarchar" MaxLength="64" />
+    <Property Name="COUNT" Type="int" />
+    <Property Name="PRICE" Type="real" />
+    <Property Name="RATING" Type="real" />
+  </EntityType>
+  <EntityType Name="USERS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="NAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="SURNAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="LOGIN" Type="nchar" MaxLength="20" />
+    <Property Name="PASSWORD" Type="varchar" MaxLength="50" />
+    <Property Name="EMAIL" Type="varchar" MaxLength="50" />
+    <Property Name="PHONE" Type="varchar" MaxLength="16" />
+  </EntityType>
+  <Association Name="FK_ORDERS_PRODUCTS">
+    <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="0..1" />
+    <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ORDERS">
+        <PropertyRef Name="PRODUCT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ORDERS_USERS">
+    <End Role="USERS" Type="Self.USERS" Multiplicity="0..1" />
+    <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USERS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ORDERS">
+        <PropertyRef Name="USER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище Course_workModelContainer">
+    <EntitySet Name="ORDERS" EntityType="Self.ORDERS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PRODUCTS" EntityType="Self.PRODUCTS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USERS" EntityType="Self.USERS" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ORDERS_PRODUCTS" Association="Self.FK_ORDERS_PRODUCTS">
+      <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+      <End Role="ORDERS" EntitySet="ORDERS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ORDERS_USERS" Association="Self.FK_ORDERS_USERS">
+      <End Role="USERS" EntitySet="USERS" />
+      <End Role="ORDERS" EntitySet="ORDERS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

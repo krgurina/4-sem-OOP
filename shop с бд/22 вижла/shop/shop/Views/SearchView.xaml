@@ -1,0 +1,128 @@
+﻿<Page x:Class="shop.Views.SearchView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:shop.Views"
+      xmlns:viewModel="clr-namespace:shop.ViewModels" d:DataContext="{d:DesignInstance Type=viewModel:SearchViewModel}"
+
+      mc:Ignorable="d" 
+      d:DesignHeight="541" d:DesignWidth="800"
+      Title="SearchView">
+
+    
+    
+    <Grid Background="Azure">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MinWidth="100"/>
+            <ColumnDefinition Width="3*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <!--<TextBlock Grid.Row="1" Grid.Column="1" x:Name="testik">лох</TextBlock>-->
+
+        <!--<Grid Grid.Column="0" Grid.RowSpan="2" Background="#7E2898">-->
+        <TextBlock  Grid.Column="0" Grid.Row="0" >фильтры</TextBlock >
+        <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical" Background="#7E2898">
+            <TextBlock Text="Категории"/>
+            <ComboBox ItemsSource="{Binding Categories}"  SelectedItem="{Binding SelectedCategory}" MinWidth="100"  BorderThickness="1" BorderBrush="White">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Name}" Margin="0" VerticalAlignment="Bottom"
+                                       HorizontalAlignment="Center"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            <TextBlock Text="цена"/>
+            <Slider />
+            <!--слайдер с 2 ползунками-->
+ 
+
+            <StackPanel Orientation="Horizontal">
+
+                <StackPanel Orientation="Horizontal" Margin="0 0 20 0" MinWidth="60">
+                    <TextBlock Text="от" Margin="0 0 10 0" />
+                    <TextBox Text="{Binding MinValue}" VerticalAlignment="Center" Width="60" BorderBrush="Black" BorderThickness="1"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" MinWidth="60">
+                    <TextBlock Text="до" Margin="0 0 10 0"/>
+                    <TextBox Text="{Binding MaxValue}" VerticalAlignment="Center" Width="60" BorderBrush="Black" BorderThickness="1"/>
+
+                </StackPanel>
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 20 0 10">
+                <TextBlock Text="Найдено:" />
+                <Label Content="{Binding ProductsCount, UpdateSourceTrigger=PropertyChanged}"  VerticalAlignment="Center" Width="60"/>
+                <TextBlock Text="{Binding ProductsCount, UpdateSourceTrigger=PropertyChanged}"  VerticalAlignment="Center" Width="60"/>
+            </StackPanel>
+            <ComboBox x:Name="SortOrder" SelectedIndex="{Binding SelectedSortIndex}" SelectedItem="{Binding SelectedSort}" MinWidth="100"  BorderThickness="1" BorderBrush="White" Margin="0 10 0 0">
+                <ComboBoxItem Content="По возрастанию цены" x:Name="PriceAsc"/>
+                <ComboBoxItem Content="По убыванию цены" x:Name="PriceDsc"/>
+                <ComboBoxItem Content="По рейтингу" x:Name="RatingAsc"/>
+            </ComboBox>
+            
+            <Button x:Name="UseFilterBtn" Content="Применить" Command="{Binding FilterCommand}" Margin="0 50 0 0"/>
+            <Button x:Name="AllProductBtn" Content="Показать все товары" Command="{Binding ShowAllCommand}" Margin="0 10"/>
+
+        </StackPanel>
+
+        <!--ХУЕВО СКРОЛИТЬСЯ-->
+        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" >
+            <TextBox x:Name="SearchTxB" Text="{Binding textForSearch}" MinWidth="400" Margin="10"/>
+            <Button x:Name="SearchBtn" Command="{Binding SearchCommand}" Content="Search"/>
+        </StackPanel>
+        <!--<ScrollViewer Grid.Row="1" Grid.Column="1">-->
+            <ListView SelectedItem="{Binding SelectedProduct}" Grid.Row="1" Grid.Column="1" x:Name="productList" ItemsSource="{Binding Products, UpdateSourceTrigger=PropertyChanged}"  MinHeight="491" Height="700" ScrollViewer.HorizontalScrollBarVisibility="Disabled"  >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Vertical" Margin="5">
+                            <Image Width="200" Height="200" Source="{Binding ImageLink}" HorizontalAlignment="Center"/>
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                                <TextBlock FontSize="12" Text="{Binding Title}" HorizontalAlignment="Center" />
+                                <TextBlock Text="{Binding  Price, StringFormat=\{0\} BYN}"/>
+                            </StackPanel>
+                            <Button x:Name="InCard" Content="В корзину" Command="{Binding ElementName=productList, Path=DataContext.AddToCart}" Width="200" Margin="0 20 0 0"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="15" />
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+            </ListView>
+        <!--</ScrollViewer>-->
+        
+
+
+        <!--<ItemsControl x:Name="productList" ItemsSource="{Binding LstProduct}" Height="448">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border Margin="50" Width="200" Height="300" Background="Tan">
+                            <StackPanel>
+                                <TextBlock Margin="5" Text="{Binding TITLE}"  FontSize="22" Foreground="#FF444444" FontFamily="Montserrat"/>
+                                <TextBlock Margin="5 0" Text="{Binding PRICE, StringFormat=\{0:C\}}"  FontFamily="Montserrat"  Foreground="#FF444444" FontSize="22"/>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>-->
+
+
+
+
+    </Grid>
+</Page>

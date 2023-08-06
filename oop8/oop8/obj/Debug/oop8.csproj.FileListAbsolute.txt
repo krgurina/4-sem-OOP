@@ -1,0 +1,17 @@
+F:\лабы\ООП\oop8\oop8\bin\Debug\oop8.exe.config
+F:\лабы\ООП\oop8\oop8\bin\Debug\oop8.exe
+F:\лабы\ООП\oop8\oop8\bin\Debug\oop8.pdb
+F:\лабы\ООП\oop8\oop8\obj\Debug\MainWindow.g.cs
+F:\лабы\ООП\oop8\oop8\obj\Debug\PhotoViewer.g.cs
+F:\лабы\ООП\oop8\oop8\obj\Debug\App.g.cs
+F:\лабы\ООП\oop8\oop8\obj\Debug\oop8_MarkupCompile.cache
+F:\лабы\ООП\oop8\oop8\obj\Debug\oop8_MarkupCompile.lref
+F:\лабы\ООП\oop8\oop8\obj\Debug\MainWindow.baml
+F:\лабы\ООП\oop8\oop8\obj\Debug\PhotoViewer.baml
+F:\лабы\ООП\oop8\oop8\obj\Debug\oop8.g.resources
+F:\лабы\ООП\oop8\oop8\obj\Debug\oop8.Properties.Resources.resources
+F:\лабы\ООП\oop8\oop8\obj\Debug\oop8.csproj.GenerateResource.cache
+F:\лабы\ООП\oop8\oop8\obj\Debug\oop8.csproj.CoreCompileInputs.cache
+F:\лабы\ООП\oop8\oop8\obj\Debug\oop8.exe
+F:\лабы\ООП\oop8\oop8\obj\Debug\oop8.pdb
+F:\лабы\ООП\oop8\oop8\obj\Debug\oop8.csproj.AssemblyReference.cache

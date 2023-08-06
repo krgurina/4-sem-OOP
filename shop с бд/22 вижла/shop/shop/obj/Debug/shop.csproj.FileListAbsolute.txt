@@ -1,0 +1,184 @@
+F:\лабы\ООП\shop\shop\bin\Debug\shop.exe.config
+F:\лабы\ООП\shop\shop\bin\Debug\shop.exe
+F:\лабы\ООП\shop\shop\bin\Debug\shop.pdb
+F:\лабы\ООП\shop\shop\bin\Debug\EntityFramework.dll
+F:\лабы\ООП\shop\shop\bin\Debug\EntityFramework.SqlServer.dll
+F:\лабы\ООП\shop\shop\bin\Debug\EntityFramework.xml
+F:\лабы\ООП\shop\shop\bin\Debug\EntityFramework.SqlServer.xml
+F:\лабы\ООП\shop\shop\obj\Debug\shop.csproj.AssemblyReference.cache
+F:\лабы\ООП\shop\shop\obj\Debug\MainWindow.g.cs
+F:\лабы\ООП\shop\shop\obj\Debug\App.g.cs
+F:\лабы\ООП\shop\shop\obj\Debug\shop_MarkupCompile.cache
+F:\лабы\ООП\shop\shop\obj\Debug\shop_MarkupCompile.lref
+F:\лабы\ООП\shop\shop\obj\Debug\MainWindow.baml
+F:\лабы\ООП\shop\shop\obj\Debug\shop.g.resources
+F:\лабы\ООП\shop\shop\obj\Debug\shop.Properties.Resources.resources
+F:\лабы\ООП\shop\shop\obj\Debug\shop.csproj.GenerateResource.cache
+F:\лабы\ООП\shop\shop\obj\Debug\shop.csproj.CoreCompileInputs.cache
+F:\лабы\ООП\shop\shop\obj\Debug\shop.csproj.CopyComplete
+F:\лабы\ООП\shop\shop\obj\Debug\shop.exe
+F:\лабы\ООП\shop\shop\obj\Debug\shop.pdb
+F:\лабы\ООП\shop\shop\obj\Debug\Views\EditProductView.baml
+F:\лабы\ООП\shop\shop\obj\Debug\Views\EditProductView.g.cs
+F:\лабы\ООП\shop\shop\obj\Debug\Views\Admin\AdminView.g.cs
+F:\лабы\ООП\shop\shop\obj\Debug\Views\Admin\AdminView.baml
+F:\лабы\ООП\shop\shop\bin\Debug\MaterialDesignColors.dll
+F:\лабы\ООП\shop\shop\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\лабы\ООП\shop\shop\bin\Debug\Microsoft.Xaml.Behaviors.dll
+F:\лабы\ООП\shop\shop\bin\Debug\MaterialDesignColors.pdb
+F:\лабы\ООП\shop\shop\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\лабы\ООП\shop\shop\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\лабы\ООП\shop\shop\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+F:\лабы\ООП\shop\shop\bin\Debug\Microsoft.Xaml.Behaviors.xml
+F:\лабы\ООП\shop\shop\obj\Debug\Resources\MenuButton.baml
+F:\лабы\ООП\shop\shop\obj\Debug\App.baml
+F:\лабы\ООП\shop\shop\obj\Debug\Views\Admin\Admin.g.cs
+F:\лабы\ООП\shop\shop\obj\Debug\Views\Admin\Admin.baml
+F:\лабы\ООП\shop\shop\obj\Debug\Views\Admin\CategoriesView.g.cs
+F:\лабы\ООП\shop\shop\obj\Debug\Views\Admin\CategoriesView.baml
+F:\лабы\ООП\shop\shop\bin\Debug\ToastNotifications.dll
+F:\лабы\ООП\shop\shop\bin\Debug\Newtonsoft.Json.dll
+F:\лабы\ООП\shop\shop\bin\Debug\Newtonsoft.Json.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\shop.exe.config
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\shop.exe
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\shop.pdb
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\DevExpress.Mvvm.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\DevExpress.Mvvm.UI.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\MaterialDesignColors.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Bcl.HashCode.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Data.SqlClient.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.EntityFrameworkCore.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Configuration.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Logging.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Options.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Primitives.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Identity.Client.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.IdentityModel.Logging.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Xaml.Behaviors.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Newtonsoft.Json.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.Buffers.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.Collections.Immutable.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.ComponentModel.Annotations.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.Memory.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.Numerics.Vectors.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\ToastNotifications.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\DevExpress.Mvvm.pdb
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\DevExpress.Mvvm.UI.pdb
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\MaterialDesignColors.pdb
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Bcl.HashCode.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Data.SqlClient.pdb
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Data.SqlClient.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.EntityFrameworkCore.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Configuration.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Logging.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Options.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Extensions.Primitives.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Identity.Client.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.IdentityModel.Logging.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Microsoft.Xaml.Behaviors.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\Newtonsoft.Json.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.Buffers.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.Collections.Immutable.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.Memory.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.Numerics.Vectors.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+F:\лабы\ООП\shop с бд\shop\shop\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Resources\MenuButton.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\EditProductView.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\MainWindow.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Resources\RangeSlider.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\AboutUsView.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\Admin\AddProductView.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\Admin\Admin.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\Admin\CategoriesView.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\Admin\HomeAdminView.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\Admin\OrdersView.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\AuthView.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\CartView.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\HomeView.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\RegView.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\Admin\UsersView.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\EditProductView.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\LoginView.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\SearchView.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\UserCabView.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\App.g.cs
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\shop_MarkupCompile.cache
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\shop_MarkupCompile.lref
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\App.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\MainWindow.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Resources\RangeSlider.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\AboutUsView.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\Admin\AddProductView.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\Admin\Admin.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\Admin\CategoriesView.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\Admin\HomeAdminView.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\Admin\OrdersView.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\AuthView.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\CartView.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\HomeView.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\RegView.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\Admin\UsersView.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\LoginView.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\SearchView.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\Views\UserCabView.baml
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\shop.g.resources
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\shop.Properties.Resources.resources
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\shop.csproj.GenerateResource.cache
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\shop.csproj.CoreCompileInputs.cache
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\shop.csproj.CopyComplete
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\shop.exe
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\shop.pdb
+F:\лабы\ООП\shop с бд\shop\shop\obj\Debug\shop.csproj.AssemblyReference.cache

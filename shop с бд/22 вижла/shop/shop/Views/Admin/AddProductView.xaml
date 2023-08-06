@@ -1,0 +1,91 @@
+﻿<Page x:Class="shop.Views.AddProductView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:shop.Views.Admin"
+       xmlns:viewModel="clr-namespace:shop.ViewModels.Admin" d:DataContext="{d:DesignInstance Type=viewModel:AddProductViewModel}"
+      Loaded="Page_Loaded"
+      mc:Ignorable="d" 
+      d:DesignHeight="541" d:DesignWidth="800"
+      Title="CategoriesView" >
+
+    <Grid Background="Wheat">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="77*"/>
+            <ColumnDefinition Width="123*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <StackPanel Margin="15, 15,0 ,0" Orientation="Vertical">
+                <StackPanel  Orientation="Horizontal">
+                    <TextBlock FontSize="15" Text="Название"/>
+                    <TextBox x:Name="ProductName" Text="{Binding Title}" Width="217" RenderTransformOrigin="0.5,0.5"/>
+                </StackPanel>
+                <StackPanel  Orientation="Horizontal">
+                    <TextBlock FontSize="15" Text="Категория"/>
+                    <!--<ComboBox x:Name="ProductCategoryName"/>-->
+                    <ComboBox x:Name="ProductCategoryName" ItemsSource="{Binding Categories}"  SelectedItem="{Binding SelectedCategory}" MinWidth="100"  BorderThickness="1" BorderBrush="White" Width="220">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Name}" Margin="0" VerticalAlignment="Bottom"
+                                       HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                    
+                </StackPanel>
+                <StackPanel  Orientation="Horizontal">
+                    <TextBlock FontSize="15" Text="цена"/>
+                    <TextBox x:Name="Price" Text="{Binding Price}" Width="217" RenderTransformOrigin="0.5,0.5"/>
+                </StackPanel>
+                <StackPanel  Orientation="Horizontal">
+                    <TextBlock FontSize="15" Text="ID categor"/>
+                    <TextBox Text="{Binding CategoryId}"  Width="217" RenderTransformOrigin="0.5,0.5"/>
+                </StackPanel>
+                <StackPanel  Orientation="Horizontal">
+                    <TextBlock FontSize="15" Text="Описание"/>
+                    <TextBox x:Name="ProductDescription" Text="{Binding Description}" Width="217" RenderTransformOrigin="0.5,0.5"/>
+                </StackPanel>
+                <StackPanel  Orientation="Horizontal">
+                    <TextBlock FontSize="15" Text="image link"/>
+                    <TextBox x:Name="ProductImage" Text="{Binding ImageLink}" Width="217" RenderTransformOrigin="0.5,0.5"/>
+                </StackPanel>
+                <Button Content="добавить" Command="{Binding AddProductCommand}" Click="Button_Click" Margin="0 10"/>
+
+                <Button Content="удалить" Command="{Binding DeleteProducеCommand}" Margin="0 10"/>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBox x:Name="SearchRequest" TextChanged="SearchRequest_TextChanged" Width="200" Margin="10"/>
+                    <Button Content="поиск" />
+
+                </StackPanel>
+            </StackPanel>
+            
+
+        </Grid>
+
+
+        <Grid Grid.Column="1" >
+            <DataGrid x:Name="ProductsGrid" SelectedItem="{Binding SelectedItemForDataGrid, UpdateSourceTrigger=PropertyChanged}" AutoGenerateColumns="False"  IsReadOnly="True" ItemsSource="{Binding Products}">
+                <DataGrid.Columns >
+                    <DataGridTextColumn Header="ID" Width="*" Binding="{Binding ID}"/>
+                    <DataGridTextColumn Header="TITLE" Width="*" Binding="{Binding Title}"/>
+                    <DataGridTextColumn Header="CATEGORY" Width="*" Binding="{Binding Category}"/>
+                    <DataGridTextColumn Header="PRICE" Width="*" Binding="{Binding Price}"/>
+                    <DataGridTextColumn Header="PTING" Width="*" Binding="{Binding Rating}"/>
+                    <DataGridTextColumn Header="DISCRIPTION" Width="*" Binding="{Binding Description}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+                <!--<ListView x:Name="CategoryList">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock FontSize="12" Text="{Binding Name}" HorizontalAlignment="Center" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>-->
+        </Grid>
+
+
+    </Grid>
+</Page>

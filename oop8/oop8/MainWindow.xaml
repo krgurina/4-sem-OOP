@@ -1,0 +1,62 @@
+﻿<Window x:Class="oop8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:oop8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="504.8" Width="900" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Grid>
+
+        <DataGrid x:Name="dataGridDisc" AutoGenerateColumns="False" Margin="10,30,287,246">
+            <DataGrid.Columns>
+                <DataGridTextColumn IsReadOnly="True" Binding="{Binding Id}" Header="ID" Width="25"/>
+                <DataGridTextColumn Binding="{Binding Name}" Header="Название" Width="85"/>
+                <DataGridTextColumn Binding="{Binding Semester}" Header="Семестр" Width="60"/>
+                <DataGridTextColumn Binding="{Binding Course}" Header="Курс" Width="60"/>
+                <DataGridTextColumn Binding="{Binding NumOfLectures}" Header="Кол-во лекций" Width="95"/>
+                <DataGridTextColumn Binding="{Binding NumOfLabs}" Header="Кол-во лаб" Width="75"/>
+                <DataGridTextColumn Binding="{Binding TypeOfControl}" Header="Тип контроля" Width="85"/>
+                <DataGridTextColumn Binding="{Binding LectorID}" Header="ID Лектора" Width="75"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="dataGridLect" AutoGenerateColumns="False" Margin="10,251,268,10" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Id}" Header="ID" Width="25"/>
+                <DataGridTextColumn Binding="{Binding Name}" Header="Имя" Width="75"/>
+                <DataGridTextColumn Binding="{Binding Surname}" Header="Фамилия" Width="90"/>
+                <DataGridTextColumn Binding="{Binding Patronomyc}" Header="Отчество" Width="95"/>
+                <DataGridTextColumn Binding="{Binding Departament}" Header="Кафедра" Width="80"/>
+                <DataGridTextColumn Binding="{Binding Auditory}" Header="Аудитория" Width="70"/>
+                <DataGridTextColumn Binding="{Binding Number}" Header="Номер" Width="95"/>
+                <DataGridTemplateColumn Header="Фото" Width="95">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Height="50" Width="80" Source="{Binding Photo}"  PreviewMouseLeftButtonDown="Image_PreviewMouseLeftButtonDown"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Content="назад" x:Name="backDtn" Click="back_Button" Margin="626,6,212.6,445.2"/>
+        <Button Content="вперёд" Click="forward_Button" Margin="694,6,144.6,445.2"/>
+        <Button Content="Сохранить изменения" Click="Button_Click" HorizontalAlignment="Left" Margin="678,191,0,0" VerticalAlignment="Top" Width="147" RenderTransformOrigin="0.547,0.5"/>
+        <Button Content="Добавить" Click="Add_Click" HorizontalAlignment="Left" Margin="705,74,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.547,0.5"/>
+        <Button Content="Открыть" Click="AddPhoto_Click" HorizontalAlignment="Left" Margin="631,436,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label Content="Обновить информацию в таблицах БД" HorizontalAlignment="Left" Margin="659,165,0,0" VerticalAlignment="Top"/>
+        <Label Content="Добавить дисциплину" HorizontalAlignment="Left" Margin="683,48,0,0" VerticalAlignment="Top"/>
+        <Label Content="Добавить фото в выделенную строку" HorizontalAlignment="Left" Margin="627,405,0,0" VerticalAlignment="Top"/>
+        <Label Content="Дисциплина" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+        <Label Content="Лектор" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top"/>
+        <Button Content="Удалить" Click="Delete_Click" HorizontalAlignment="Left" Margin="706,251,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label Content="Удалить выделенную(ые) строку(и)" HorizontalAlignment="Left" Margin="650,225,0,0" VerticalAlignment="Top"/>
+        <Button Content="Процедура" x:Name="Proc" Click="Proc_Click" HorizontalAlignment="Left" Margin="631,366,0,0" VerticalAlignment="Top" Width="110"/>
+        <Button Content="Добавить" Click="Add_Lector_Click" HorizontalAlignment="Left" Margin="631,342,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.547,0.5"/>
+        <Label Content="Добавить лектора" HorizontalAlignment="Left" Margin="631,311,0,0" VerticalAlignment="Top"/>
+        <Label Content="редактировать" HorizontalAlignment="Left" Margin="715,106,0,0" VerticalAlignment="Top"/>
+        <Button Content="Редактировать" Click="Change_Buttont" HorizontalAlignment="Left" Margin="706,132,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.547,0.5"/>
+        <Button Content="Транзакция" Click="Transact_Buttont" HorizontalAlignment="Left" Margin="764,366,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.547,0.5"/>
+
+    </Grid>
+</Window>

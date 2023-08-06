@@ -1,0 +1,57 @@
+﻿<Page x:Class="shop.Views.SearchView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:shop.Views"
+      xmlns:viewModel="clr-namespace:shop.ViewModels" d:DataContext="{d:DesignInstance Type=viewModel:SearchViewModel}"
+
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SearchView">
+
+    <Grid Background="Azure">
+        <StackPanel>
+            <TextBlock x:Name="testik">лох</TextBlock>
+
+            <ListView x:Name="productList"  MinHeight="300" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Height="449" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="5">
+                            <TextBlock FontSize="12" Text="RRRRR" HorizontalAlignment="Center" />
+                            <TextBlock FontSize="12" Text="{Binding TITLE, StringFormat=Компания: \{0\}}" HorizontalAlignment="Center" />
+                            <TextBlock Text="{Binding  PRICE, StringFormat=Цена: \{0\}BYN}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel />
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+            </ListView>
+
+
+            <!--<ItemsControl x:Name="productList" ItemsSource="{Binding LstProduct}" Height="448">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border Margin="50" Width="200" Height="300" Background="Tan">
+                            <StackPanel>
+                                <TextBlock Margin="5" Text="{Binding TITLE}"  FontSize="22" Foreground="#FF444444" FontFamily="Montserrat"/>
+                                <TextBlock Margin="5 0" Text="{Binding PRICE, StringFormat=\{0:C\}}"  FontFamily="Montserrat"  Foreground="#FF444444" FontSize="22"/>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>-->
+
+
+        </StackPanel>
+       
+    </Grid>
+</Page>

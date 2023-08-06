@@ -1,0 +1,64 @@
+﻿<Page x:Class="shop.Views.RegView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:shop.Views" xmlns:viewmodels="clr-namespace:shop.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:RegViewModel}"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="320"
+      Title="RegView" >
+
+    <Grid Background="White">
+
+        <StackPanel Margin="15" Orientation="Vertical" HorizontalAlignment="Center" Width="320">
+            <Image Source="logo.svg" Width="180" Height="155" Margin="10"/>
+            <StackPanel  Orientation="Horizontal" Margin="15 0">
+                <TextBlock FontSize="15" Text="login" HorizontalAlignment="Center" Margin="0 0 79 0"/>
+                <TextBox x:Name="login" Text="{Binding Login}" Width="175"/>
+            </StackPanel>
+            <StackPanel  Orientation="Horizontal" Margin="15 5">
+                <TextBlock FontSize="15" Text="userName"/>
+                <TextBox x:Name="userName" Text="{Binding Name}" Width="175" HorizontalAlignment="Right"/>
+            </StackPanel>
+
+            <StackPanel  Orientation="Horizontal" Margin="15 0">
+                <TextBlock FontSize="15" Text="userSurname"/>
+                <TextBox x:Name="userSurname" Text="{Binding Surname}" Width="175" />
+            </StackPanel>
+
+            <StackPanel  Orientation="Horizontal" Margin="15 5">
+                <TextBlock FontSize="15" Text="userEmail"/>
+                <TextBox x:Name="userEmail" Text="{Binding Email}" Width="175"/>
+            </StackPanel>
+
+            <StackPanel  Orientation="Horizontal" Margin="15 0">
+                <TextBlock FontSize="15" Text="userPhone"/>
+                <TextBox x:Name="userPhone" Text="{Binding Phone}" Width="175"/>
+            </StackPanel>
+            <StackPanel  Orientation="Horizontal" Margin="15 5">
+                <TextBlock FontSize="15" Text="password" Margin="0 0 50 0"/>
+                <TextBox x:Name="password"  Text="{Binding Password, UpdateSourceTrigger=PropertyChanged}" Width="175"/>
+            </StackPanel>
+            <StackPanel  Orientation="Horizontal" Margin="15 0">
+                <TextBlock FontSize="15" Text="password" Margin="0 0 50 0"/>
+                <TextBox x:Name="password2"  Text="{Binding Password, UpdateSourceTrigger=PropertyChanged}" Width="175"/>
+            </StackPanel>
+
+            <Button Content="зарегистрироваться" Command="{Binding RegUserCommand}" Click="Button_Click" Margin="10"/>
+
+        </StackPanel>
+
+
+
+
+
+           
+
+            
+
+
+
+
+       
+    </Grid>
+</Page>

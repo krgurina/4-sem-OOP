@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Course_workModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ORDERS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="USER_ID" Type="Guid" />
+    <Property Name="PRODUCT_ID" Type="Guid" />
+    <Property Name="COUNT" Type="Int32" />
+    <Property Name="DATE" Type="DateTime" Precision="0" />
+    <Property Name="ORDER_STATE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="PRODUCTS" Relationship="Self.FK_ORDERS_PRODUCTS" FromRole="ORDERS" ToRole="PRODUCTS" />
+    <NavigationProperty Name="USERS" Relationship="Self.FK_ORDERS_USERS" FromRole="ORDERS" ToRole="USERS" />
+  </EntityType>
+  <EntityType Name="PRODUCTS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="TITLE" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="CATEGORY" Type="String" MaxLength="64" FixedLength="false" Unicode="true" />
+    <Property Name="COUNT" Type="Int32" />
+    <Property Name="PRICE" Type="Single" />
+    <Property Name="RATING" Type="Single" />
+    <NavigationProperty Name="ORDERS" Relationship="Self.FK_ORDERS_PRODUCTS" FromRole="PRODUCTS" ToRole="ORDERS" />
+  </EntityType>
+  <EntityType Name="USERS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SURNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LOGIN" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="PASSWORD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PHONE" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ORDERS" Relationship="Self.FK_ORDERS_USERS" FromRole="USERS" ToRole="ORDERS" />
+  </EntityType>
+  <Association Name="FK_ORDERS_PRODUCTS">
+    <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="0..1" />
+    <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ORDERS">
+        <PropertyRef Name="PRODUCT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ORDERS_USERS">
+    <End Role="USERS" Type="Self.USERS" Multiplicity="0..1" />
+    <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USERS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ORDERS">
+        <PropertyRef Name="USER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Course_workEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ORDERS" EntityType="Self.ORDERS" />
+    <EntitySet Name="PRODUCTS" EntityType="Self.PRODUCTS" />
+    <EntitySet Name="USERS" EntityType="Self.USERS" />
+    <AssociationSet Name="FK_ORDERS_PRODUCTS" Association="Self.FK_ORDERS_PRODUCTS">
+      <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+      <End Role="ORDERS" EntitySet="ORDERS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ORDERS_USERS" Association="Self.FK_ORDERS_USERS">
+      <End Role="USERS" EntitySet="USERS" />
+      <End Role="ORDERS" EntitySet="ORDERS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
